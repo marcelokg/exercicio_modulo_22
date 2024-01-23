@@ -1,4 +1,19 @@
 
-body{
-    background-color: red;
+@use 'hero';
+@use 'infos';
+@use 'buttons';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    list-style: none;
+}
+
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
 }

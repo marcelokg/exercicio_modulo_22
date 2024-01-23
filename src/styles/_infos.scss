@@ -1,0 +1,10 @@
+
+.infos-bar{
+    padding: 16px 150px;
+    display: flex;
+    justify-content: space-between;
+
+    &__infos{
+        font-size: 30px;
+    }
+}
